@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Page>
+	<Object>
+        <objectName>lnk_Brands</objectName>
+        <searchLocator>(//label[@role="button"]/span[text()='Brands'])[1]</searchLocator>
+    </Object>
+    <Object>
+        <objectName>lnk_BrandType</objectName>
+        <searchLocator>(//span[@data-vars-lb="Dell"])[1]</searchLocator>
+    </Object>
+    <Object>
+        <objectName>ele_CheckBrand</objectName>
+        <searchLocator>//a[contains(@data-vars-lb,"Dell")][&lt;idf_Count&gt;]</searchLocator>
+    </Object>
+</Page>
+
+

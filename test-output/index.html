@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_Suite">
+              <span class="suite-name border-failed">Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Suite">
+                    <span>D:\MY\Chinthaka\FrameWork\Test.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods failed suite-Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Suite" class="show-methods failed suite-Test_Suite"> (show)</a> <!-- show-methods failed suite-Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="com.automation.aproject.TS_Iprice" hash-for-method="tc_IpriceDress">tc_IpriceDress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods passed suite-Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Suite" class="show-methods passed suite-Test_Suite"> (show)</a> <!-- show-methods passed suite-Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="com.automation.aproject.TS_WebService" hash-for-method="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&amp;Accept=application/json,...)">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="com.automation.aproject.TS_WebService" hash-for-method="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&amp;Accept=application/json,...)">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="com.automation.aproject.TS_WebService" hash-for-method="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&amp;Accept=application/json,...)">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="com.automation.aproject.TS_WebService" hash-for-method="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&amp;Accept=application/json,...)">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="com.automation.aproject.TS_WebService" hash-for-method="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&amp;Accept=application/json,...)">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="com.automation.aproject.TS_WebService" hash-for-method="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=text/xml&amp;Accept=application/json, POST, {...)">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=text/xml&Accept=application/json, POST, {...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="com.automation.aproject.TS_WebService" hash-for-method="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&amp;Accept=application/json,...)">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="com.automation.aproject.TS_Iprice" hash-for-method="tc_IpriceIphone(https://iprice.my/, 1000, iPhone 14, RM)">tc_IpriceIphone(https://iprice.my/, 1000, iPhone 14, RM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="com.automation.aproject.TS_Iprice" hash-for-method="tc_IpriceLaptop(https://iprice.my/computing/laptops, 1000, DellLaptops)">tc_IpriceLaptop(https://iprice.my/computing/laptops, 1000, DellLaptops)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Suite" class="panel Test_Suite">
+          <div class="suite-Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.aproject.TS_Iprice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_IpriceDress">
+                  </a> <!-- tc_IpriceDress -->
+                  <span class="method-name">tc_IpriceDress</span>
+                  <div class="stack-trace">org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: tc_IpriceDress([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) https://iprice.my/clothing/dresses/,(java.lang.String) 1000,(java.lang.String) RM,(java.lang.String) RM]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-failed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.aproject.TS_WebService</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&amp;Accept=application/json,...)">
+                  </a> <!-- tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...) -->
+                  <span class="method-name">tc_CreateBooking</span>
+                  <span class="parameters">(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json, POST, {
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : ""
+}, 200, A, B, 1000, false, 2023-02-12, 2023-02-13, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&amp;Accept=application/json,...)">
+                  </a> <!-- tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...) -->
+                  <span class="method-name">tc_CreateBooking</span>
+                  <span class="parameters">(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json, POST, {
+    "firstname" : "Testf",
+    "lastname" : "Testl",
+    "totalprice" : 1000,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "Breakfast"
+}, 200, Testf, Testl, 1000, true, 2023-02-12, 2023-02-13, Breakfast)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&amp;Accept=application/json,...)">
+                  </a> <!-- tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...) -->
+                  <span class="method-name">tc_CreateBooking</span>
+                  <span class="parameters">(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json, POST, {
+    "firstname" : ,
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "***"
+}, 400, A, B, 1000, false, 2023-02-12, 2023-02-13, ***)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&amp;Accept=application/json,...)">
+                  </a> <!-- tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...) -->
+                  <span class="method-name">tc_CreateBooking</span>
+                  <span class="parameters">(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json, POST, {
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "***"
+}, 200, A, B, 1000, false, 2023-02-12, 2023-02-13, ***)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&amp;Accept=application/json,...)">
+                  </a> <!-- tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...) -->
+                  <span class="method-name">tc_CreateBooking</span>
+                  <span class="parameters">(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json, POST, {
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "Breakfast"
+}, 200, A, B, 1000, true, 2023-02-12, 2023-02-13, Breakfast)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=text/xml&amp;Accept=application/json, POST, {...)">
+                  </a> <!-- tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=text/xml&Accept=application/json, POST, {...) -->
+                  <span class="method-name">tc_CreateBooking</span>
+                  <span class="parameters">(https://restful-booker.herokuapp.com/booking, Content-Type=text/xml&Accept=application/json, POST, {
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "***"
+}, 415, A, B, 1000, false, 2023-02-12, 2023-02-13, ***)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&amp;Accept=application/json,...)">
+                  </a> <!-- tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...) -->
+                  <span class="method-name">tc_CreateBooking</span>
+                  <span class="parameters">(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json, POST, {
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "Breakfast"
+}, 200, A, B, 1000, false, 2023-02-12, 2023-02-13, Breakfast)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.aproject.TS_Iprice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_IpriceIphone(https://iprice.my/, 1000, iPhone 14, RM)">
+                  </a> <!-- tc_IpriceIphone(https://iprice.my/, 1000, iPhone 14, RM) -->
+                  <span class="method-name">tc_IpriceIphone</span>
+                  <span class="parameters">(https://iprice.my/, 1000, iPhone 14, RM)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_IpriceLaptop(https://iprice.my/computing/laptops, 1000, DellLaptops)">
+                  </a> <!-- tc_IpriceLaptop(https://iprice.my/computing/laptops, 1000, DellLaptops) -->
+                  <span class="method-name">tc_IpriceLaptop</span>
+                  <span class="parameters">(https://iprice.my/computing/laptops, 1000, DellLaptops)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+        </div> <!-- panel Test_Suite -->
+        <div panel-name="test-xml-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\MY\Chinthaka\FrameWork\Test.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;3&quot; name=&quot;Test Suite&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; verbose=&quot;3&quot; name=&quot;Dashboard Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.aproject.TS_Iprice&quot;/&gt;
+      &lt;class name=&quot;com.automation.aproject.TS_WebService&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Dashboard Tests --&gt;
+&lt;/suite&gt; &lt;!-- Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Dashboard Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Suite');
+function tableData_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc_IpriceLaptop')
+data.setCell(0, 2, 'com.automation.aproject.TS_Iprice')
+data.setCell(0, 3, 46289);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc_IpriceIphone')
+data.setCell(1, 2, 'com.automation.aproject.TS_Iprice')
+data.setCell(1, 3, 27688);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tc_CreateBooking')
+data.setCell(2, 2, 'com.automation.aproject.TS_WebService')
+data.setCell(2, 3, 3379);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc_CreateBooking')
+data.setCell(3, 2, 'com.automation.aproject.TS_WebService')
+data.setCell(3, 3, 1558);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc_CreateBooking')
+data.setCell(4, 2, 'com.automation.aproject.TS_WebService')
+data.setCell(4, 3, 1551);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc_CreateBooking')
+data.setCell(5, 2, 'com.automation.aproject.TS_WebService')
+data.setCell(5, 3, 1522);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc_CreateBooking')
+data.setCell(6, 2, 'com.automation.aproject.TS_WebService')
+data.setCell(6, 3, 1496);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc_CreateBooking')
+data.setCell(7, 2, 'com.automation.aproject.TS_WebService')
+data.setCell(7, 3, 1478);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tc_CreateBooking')
+data.setCell(8, 2, 'com.automation.aproject.TS_WebService')
+data.setCell(8, 3, 1441);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tc_IpriceDress')
+data.setCell(9, 2, 'com.automation.aproject.TS_Iprice')
+data.setCell(9, 3, 133);
+window.suiteTableData['Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Test_Suite">
+              </div> <!-- times-div-Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.aproject.TS_WebService</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">before</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.aproject.TS_Iprice</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">before</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">mName(public final void com.automation.aproject.TS_Iprice.tc_IpriceIphone(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_IpriceIphone(https://iprice.my/, 1000, iPhone 14, RM)</span>
+                <span class="method-start">4091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteDriver</span>
+                <span class="method-start">31781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">mName(public final void com.automation.aproject.TS_Iprice.tc_IpriceLaptop(java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">32755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_IpriceLaptop(https://iprice.my/computing/laptops, 1000, DellLaptops)</span>
+                <span class="method-start">34431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteDriver</span>
+                <span class="method-start">80726 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.aproject.TS_WebService</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">mName(public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang....)</span>
+                <span class="method-start">81556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...)</span>
+                <span class="method-start">83122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteDriver</span>
+                <span class="method-start">86503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">mName(public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang....)</span>
+                <span class="method-start">87300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...)</span>
+                <span class="method-start">89019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteDriver</span>
+                <span class="method-start">90516 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">mName(public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang....)</span>
+                <span class="method-start">91200 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...)</span>
+                <span class="method-start">92678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteDriver</span>
+                <span class="method-start">94230 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">mName(public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang....)</span>
+                <span class="method-start">94920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...)</span>
+                <span class="method-start">96403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteDriver</span>
+                <span class="method-start">97962 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">mName(public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang....)</span>
+                <span class="method-start">98649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...)</span>
+                <span class="method-start">100107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteDriver</span>
+                <span class="method-start">101631 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">mName(public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang....)</span>
+                <span class="method-start">102350 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=application/json&Accept=application/json,...)</span>
+                <span class="method-start">103880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteDriver</span>
+                <span class="method-start">105322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">mName(public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang....)</span>
+                <span class="method-start">106036 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_CreateBooking(https://restful-booker.herokuapp.com/booking, Content-Type=text/xml&Accept=application/json, POST, {...)</span>
+                <span class="method-start">107486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quiteDriver</span>
+                <span class="method-start">108968 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

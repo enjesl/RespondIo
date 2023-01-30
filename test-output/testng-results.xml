@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="11" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="109681" started-at="2023-01-30T09:15:31Z" finished-at="2023-01-30T09:17:20Z">
+    <groups>
+    </groups>
+    <test name="Dashboard Tests" duration-ms="109681" started-at="2023-01-30T09:15:31Z" finished-at="2023-01-30T09:17:20Z">
+      <class name="com.automation.aproject.TS_WebService">
+        <test-method status="PASS" signature="mName(java.lang.reflect.Method)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="mName" is-config="true" duration-ms="1566" started-at="2023-01-30T09:16:52Z" finished-at="2023-01-30T09:16:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mName -->
+        <test-method status="PASS" signature="tc_CreateBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="tc_CreateBooking" duration-ms="3379" started-at="2023-01-30T09:16:54Z" data-provider="tc_CreateBooking" finished-at="2023-01-30T09:16:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restful-booker.herokuapp.com/booking]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Content-Type=application/json&Accept=application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{
+    "firstname" : "Testf",
+    "lastname" : "Testl",
+    "totalprice" : 1000,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "Breakfast"
+}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Testf]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Testl]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2023-02-12]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2023-02-13]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Breakfast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_CreateBooking -->
+        <test-method status="PASS" signature="quiteDriver()[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="quiteDriver" is-config="true" duration-ms="796" started-at="2023-01-30T09:16:57Z" finished-at="2023-01-30T09:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+        <test-method status="PASS" signature="mName(java.lang.reflect.Method)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="mName" is-config="true" duration-ms="1719" started-at="2023-01-30T09:16:58Z" finished-at="2023-01-30T09:17:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mName -->
+        <test-method status="PASS" signature="tc_CreateBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="tc_CreateBooking" duration-ms="1496" started-at="2023-01-30T09:17:00Z" data-provider="tc_CreateBooking" finished-at="2023-01-30T09:17:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restful-booker.herokuapp.com/booking]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Content-Type=application/json&Accept=application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "Breakfast"
+}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2023-02-12]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2023-02-13]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Breakfast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_CreateBooking -->
+        <test-method status="PASS" signature="quiteDriver()[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="quiteDriver" is-config="true" duration-ms="684" started-at="2023-01-30T09:17:01Z" finished-at="2023-01-30T09:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+        <test-method status="PASS" signature="mName(java.lang.reflect.Method)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="mName" is-config="true" duration-ms="1478" started-at="2023-01-30T09:17:02Z" finished-at="2023-01-30T09:17:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mName -->
+        <test-method status="PASS" signature="tc_CreateBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="tc_CreateBooking" duration-ms="1551" started-at="2023-01-30T09:17:03Z" data-provider="tc_CreateBooking" finished-at="2023-01-30T09:17:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restful-booker.herokuapp.com/booking]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Content-Type=application/json&Accept=application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "Breakfast"
+}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2023-02-12]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2023-02-13]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Breakfast]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_CreateBooking -->
+        <test-method status="PASS" signature="quiteDriver()[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="quiteDriver" is-config="true" duration-ms="690" started-at="2023-01-30T09:17:05Z" finished-at="2023-01-30T09:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+        <test-method status="PASS" signature="mName(java.lang.reflect.Method)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="mName" is-config="true" duration-ms="1482" started-at="2023-01-30T09:17:06Z" finished-at="2023-01-30T09:17:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mName -->
+        <test-method status="PASS" signature="tc_CreateBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="tc_CreateBooking" duration-ms="1558" started-at="2023-01-30T09:17:07Z" data-provider="tc_CreateBooking" finished-at="2023-01-30T09:17:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restful-booker.herokuapp.com/booking]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Content-Type=application/json&Accept=application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : ""
+}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2023-02-12]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2023-02-13]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_CreateBooking -->
+        <test-method status="PASS" signature="quiteDriver()[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="quiteDriver" is-config="true" duration-ms="686" started-at="2023-01-30T09:17:09Z" finished-at="2023-01-30T09:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+        <test-method status="PASS" signature="mName(java.lang.reflect.Method)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="mName" is-config="true" duration-ms="1458" started-at="2023-01-30T09:17:09Z" finished-at="2023-01-30T09:17:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mName -->
+        <test-method status="PASS" signature="tc_CreateBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="tc_CreateBooking" duration-ms="1522" started-at="2023-01-30T09:17:11Z" data-provider="tc_CreateBooking" finished-at="2023-01-30T09:17:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restful-booker.herokuapp.com/booking]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Content-Type=application/json&Accept=application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "***"
+}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2023-02-12]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2023-02-13]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[***]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_CreateBooking -->
+        <test-method status="PASS" signature="quiteDriver()[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="quiteDriver" is-config="true" duration-ms="718" started-at="2023-01-30T09:17:12Z" finished-at="2023-01-30T09:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+        <test-method status="PASS" signature="mName(java.lang.reflect.Method)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="mName" is-config="true" duration-ms="1530" started-at="2023-01-30T09:17:13Z" finished-at="2023-01-30T09:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mName -->
+        <test-method status="PASS" signature="tc_CreateBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="tc_CreateBooking" duration-ms="1441" started-at="2023-01-30T09:17:15Z" data-provider="tc_CreateBooking" finished-at="2023-01-30T09:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restful-booker.herokuapp.com/booking]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Content-Type=application/json&Accept=application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{
+    "firstname" : ,
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "***"
+}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2023-02-12]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2023-02-13]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[***]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_CreateBooking -->
+        <test-method status="PASS" signature="quiteDriver()[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="quiteDriver" is-config="true" duration-ms="714" started-at="2023-01-30T09:17:16Z" finished-at="2023-01-30T09:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+        <test-method status="PASS" signature="mName(java.lang.reflect.Method)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="mName" is-config="true" duration-ms="1450" started-at="2023-01-30T09:17:17Z" finished-at="2023-01-30T09:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public final void com.automation.aproject.TS_WebService.tc_CreateBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mName -->
+        <test-method status="PASS" signature="tc_CreateBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="tc_CreateBooking" duration-ms="1478" started-at="2023-01-30T09:17:18Z" data-provider="tc_CreateBooking" finished-at="2023-01-30T09:17:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://restful-booker.herokuapp.com/booking]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Content-Type=text/xml&Accept=application/json]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "***"
+}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[415]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2023-02-12]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2023-02-13]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[***]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_CreateBooking -->
+        <test-method status="PASS" signature="quiteDriver()[pri:0, instance:com.automation.aproject.TS_WebService@7a5ceedd]" name="quiteDriver" is-config="true" duration-ms="710" started-at="2023-01-30T09:17:20Z" finished-at="2023-01-30T09:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+      </class> <!-- com.automation.aproject.TS_WebService -->
+      <class name="com.automation.aproject.TS_Iprice">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.automation.aproject.TS_Iprice@5965d37]" name="before" is-config="true" duration-ms="72" started-at="2023-01-30T09:15:31Z" finished-at="2023-01-30T09:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="tc_IpriceDress(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.aproject.TS_Iprice@5965d37]" name="tc_IpriceDress" duration-ms="133" started-at="2023-01-30T09:15:31Z" data-provider="tc_IpriceDress" finished-at="2023-01-30T09:15:31Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: tc_IpriceDress([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) https://iprice.my/clothing/dresses/,(java.lang.String) 1000,(java.lang.String) RM,(java.lang.String) RM]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: tc_IpriceDress([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) https://iprice.my/clothing/dresses/,(java.lang.String) 1000,(java.lang.String) RM,(java.lang.String) RM]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_IpriceDress -->
+        <test-method status="PASS" signature="mName(java.lang.reflect.Method)[pri:0, instance:com.automation.aproject.TS_Iprice@5965d37]" name="mName" is-config="true" duration-ms="3863" started-at="2023-01-30T09:15:31Z" finished-at="2023-01-30T09:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public final void com.automation.aproject.TS_Iprice.tc_IpriceIphone(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mName -->
+        <test-method status="PASS" signature="tc_IpriceIphone(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.aproject.TS_Iprice@5965d37]" name="tc_IpriceIphone" duration-ms="27688" started-at="2023-01-30T09:15:35Z" data-provider="tc_IpriceIphone" finished-at="2023-01-30T09:16:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://iprice.my/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iPhone 14]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[RM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_IpriceIphone -->
+        <test-method status="PASS" signature="quiteDriver()[pri:0, instance:com.automation.aproject.TS_Iprice@5965d37]" name="quiteDriver" is-config="true" duration-ms="968" started-at="2023-01-30T09:16:03Z" finished-at="2023-01-30T09:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+        <test-method status="PASS" signature="mName(java.lang.reflect.Method)[pri:0, instance:com.automation.aproject.TS_Iprice@5965d37]" name="mName" is-config="true" duration-ms="1674" started-at="2023-01-30T09:16:04Z" finished-at="2023-01-30T09:16:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public final void com.automation.aproject.TS_Iprice.tc_IpriceLaptop(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mName -->
+        <test-method status="PASS" signature="tc_IpriceLaptop(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automation.aproject.TS_Iprice@5965d37]" name="tc_IpriceLaptop" duration-ms="46289" started-at="2023-01-30T09:16:05Z" data-provider="tc_IpriceLaptop" finished-at="2023-01-30T09:16:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://iprice.my/computing/laptops]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DellLaptops]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_IpriceLaptop -->
+        <test-method status="PASS" signature="quiteDriver()[pri:0, instance:com.automation.aproject.TS_Iprice@5965d37]" name="quiteDriver" is-config="true" duration-ms="822" started-at="2023-01-30T09:16:52Z" finished-at="2023-01-30T09:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+      </class> <!-- com.automation.aproject.TS_Iprice -->
+    </test> <!-- Dashboard Tests -->
+  </suite> <!-- Test Suite -->
+</testng-results>

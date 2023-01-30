@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="3" thread-count="3">
+    <test name="Dashboard Tests">
+        <classes>
+            <class name="com.automation.aproject.TS_Iprice"></class>
+            <class name="com.automation.aproject.TS_WebService"></class>
+        </classes>
+    </test>
+</suite>

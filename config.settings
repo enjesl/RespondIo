@@ -1,0 +1,5 @@
+project.tech = Web Automation
+project.browser = Google Chrome
+project.wait.time = 10
+project.webdriver = auto
+retryCount = 3

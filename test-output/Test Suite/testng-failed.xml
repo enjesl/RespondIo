@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Test Suite]">
+  <test thread-count="3" verbose="3" name="Dashboard Tests(failed)">
+    <classes>
+      <class name="com.automation.aproject.TS_Iprice">
+        <methods>
+          <include name="before"/>
+          <include name="tc_IpriceDress"/>
+          <include name="mName"/>
+          <include name="quiteDriver"/>
+        </methods>
+      </class> <!-- com.automation.aproject.TS_Iprice -->
+    </classes>
+  </test> <!-- Dashboard Tests(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

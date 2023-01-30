@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Table>
+    <Row>
+        <data name="EndPoint">https://restful-booker.herokuapp.com/booking</data>
+        <data name="Headers">Content-Type=application/json&amp;Accept=application/json</data>
+        <data name="Method">POST</data>
+        <data name="Body">{
+    "firstname" : "Testf",
+    "lastname" : "Testl",
+    "totalprice" : 1000,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "Breakfast"
+}</data>
+        <data name="ExpectedCode">200</data>
+        <data name="firstname">Testf</data>
+        <data name="lastname">Testl</data>
+        <data name="totalprice">1000</data>
+        <data name="depositpaid">true</data>
+        <data name="checkin">2023-02-12</data>
+        <data name="checkout">2023-02-13</data>
+        <data name="additionalneeds">Breakfast</data>
+    </Row>
+    <Row>
+        <data name="EndPoint">https://restful-booker.herokuapp.com/booking</data>
+        <data name="Headers">Content-Type=application/json&amp;Accept=application/json</data>
+        <data name="Method">POST</data>
+        <data name="Body">{
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "Breakfast"
+}</data>
+        <data name="ExpectedCode">200</data>
+        <data name="firstname">A</data>
+        <data name="lastname">B</data>
+        <data name="totalprice">1000</data>
+        <data name="depositpaid">true</data>
+        <data name="checkin">2023-02-12</data>
+        <data name="checkout">2023-02-13</data>
+        <data name="additionalneeds">Breakfast</data>
+    </Row>
+    <Row>
+        <data name="EndPoint">https://restful-booker.herokuapp.com/booking</data>
+        <data name="Headers">Content-Type=application/json&amp;Accept=application/json</data>
+        <data name="Method">POST</data>
+        <data name="Body">{
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "Breakfast"
+}</data>
+        <data name="ExpectedCode">200</data>
+        <data name="firstname">A</data>
+        <data name="lastname">B</data>
+        <data name="totalprice">1000</data>
+        <data name="depositpaid">false</data>
+        <data name="checkin">2023-02-12</data>
+        <data name="checkout">2023-02-13</data>
+        <data name="additionalneeds">Breakfast</data>
+    </Row>
+    <Row>
+        <data name="EndPoint">https://restful-booker.herokuapp.com/booking</data>
+        <data name="Headers">Content-Type=application/json&amp;Accept=application/json</data>
+        <data name="Method">POST</data>
+        <data name="Body">{
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : ""
+}</data>
+        <data name="ExpectedCode">200</data>
+        <data name="firstname">A</data>
+        <data name="lastname">B</data>
+        <data name="totalprice">1000</data>
+        <data name="depositpaid">false</data>
+        <data name="checkin">2023-02-12</data>
+        <data name="checkout">2023-02-13</data>
+        <data name="additionalneeds"></data>
+    </Row>
+    <Row>
+        <data name="EndPoint">https://restful-booker.herokuapp.com/booking</data>
+        <data name="Headers">Content-Type=application/json&amp;Accept=application/json</data>
+        <data name="Method">POST</data>
+        <data name="Body">{
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "***"
+}</data>
+        <data name="ExpectedCode">200</data>
+        <data name="firstname">A</data>
+        <data name="lastname">B</data>
+        <data name="totalprice">1000</data>
+        <data name="depositpaid">false</data>
+        <data name="checkin">2023-02-12</data>
+        <data name="checkout">2023-02-13</data>
+        <data name="additionalneeds">***</data>
+    </Row>
+    
+    <Row>
+        <data name="EndPoint">https://restful-booker.herokuapp.com/booking</data>
+        <data name="Headers">Content-Type=application/json&amp;Accept=application/json</data>
+        <data name="Method">POST</data>
+        <data name="Body">{
+    "firstname" : ,
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "***"
+}</data>
+        <data name="ExpectedCode">400</data>
+        <data name="firstname">A</data>
+        <data name="lastname">B</data>
+        <data name="totalprice">1000</data>
+        <data name="depositpaid">false</data>
+        <data name="checkin">2023-02-12</data>
+        <data name="checkout">2023-02-13</data>
+        <data name="additionalneeds">***</data>
+    </Row>
+    <Row>
+        <data name="EndPoint">https://restful-booker.herokuapp.com/booking</data>
+        <data name="Headers">Content-Type=text/xml&amp;Accept=application/json</data>
+        <data name="Method">POST</data>
+        <data name="Body">{
+    "firstname" : "A",
+    "lastname" : "B",
+    "totalprice" : 1000,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2023-02-12",
+        "checkout" : "2023-02-13"
+    },
+    "additionalneeds" : "***"
+}</data>
+        <data name="ExpectedCode">415</data>
+        <data name="firstname">A</data>
+        <data name="lastname">B</data>
+        <data name="totalprice">1000</data>
+        <data name="depositpaid">false</data>
+        <data name="checkin">2023-02-12</data>
+        <data name="checkout">2023-02-13</data>
+        <data name="additionalneeds">***</data>
+    </Row>
+</Table>
+

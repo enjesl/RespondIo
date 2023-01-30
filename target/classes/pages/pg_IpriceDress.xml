@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Page>
+	<Object>
+        <objectName>lbl_DressHeader</objectName>
+        <searchLocator>//h1[text()='Dresses Price List in Malaysia 2023']</searchLocator>
+    </Object>
+    <Object>
+        <objectName>lnk_Price</objectName>
+        <searchLocator>//span[@data-vars-lb="Price"]</searchLocator>
+    </Object>
+    <Object>
+        <objectName>ele_PriceDecending</objectName>
+        <searchLocator>//i[@class="sprite-icons cI i-descending-green-active i-descending-green"]</searchLocator>
+    </Object>
+    <Object>
+        <objectName>lbl_PriceTag</objectName>
+        <searchLocator>//a[@data-vars-action="shop"]//div[contains(text(),'RM')]</searchLocator>
+    </Object>
+</Page>
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Page>
+	<Object>
+        <objectName>tf_Search</objectName>
+        <searchLocator>//input[@id="term"]</searchLocator>
+    </Object>
+    <Object>
+        <objectName>btn_Search</objectName>
+        <searchLocator>//button[@id="search-btn"]</searchLocator>
+    </Object>
+     <Object>
+        <objectName>btn_Search</objectName>
+        <searchLocator>//h3[contains(text(),'Apple iPhone 14')][&lt;idf_Count&gt;]</searchLocator>
+    </Object>
+</Page>
