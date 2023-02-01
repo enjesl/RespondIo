@@ -9,7 +9,7 @@ import com.automation.framework.data.DataReader;
 public class TS_Iprice extends TestBase {
 
 	@DataProvider(name = "tc_IpriceDress")
-	public Object[][] dataTable_dt_IpriceDress() {
+	public Object[][] dataTables_dt_IpriceDress() {
 		return getTableArray(DataReader.getDataTable("dt_IpriceDress"));
 	}
 
@@ -21,7 +21,7 @@ public class TS_Iprice extends TestBase {
 	}
 	
 	@DataProvider(name = "tc_IpriceLaptop")
-	public Object[][] dataTables_dt_IpriceDress() {
+	public Object[][] dataTables_dt_IpriceLaptop() {
 		return getTableArray(DataReader.getDataTable("dt_IpriceLaptop"));
 	}
 
